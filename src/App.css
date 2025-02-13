@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Soyuz Grotesk';
+  src: url('/fonts/Grotesk/Soyuz Grotesk Bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+.text-black {
+  color: black;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+  padding: 0 15px;
+}
+.big_container {
+  max-width: 1800px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.line {
+  /* background-color: black;
+  max-width: 1400px;
+  width: 100%;
+  height: 2px; */
+
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #ccc, gray, #ccc);
+  /* background-color: black; */
+  margin: 10px 0;
+}
+
+
+
+.btn {
+  background-color: #3e6ae1;
+  padding: 10px 64px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  border: none;
+  margin: 40px auto;   
+  max-width: 320px;
+  width: 100%;
+  display: block;
+  transition: 0.4s;
+  &:hover {
+     background-color: #507fff;
+  }
+}
+
+
+
+
+
+
+
+
+.input {
+  max-width: 320px;
+  width: 100%;
+  height: 40px;
+  background: #f4f4f4;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  transition: 0.5s;
+  border: 1px solid transparent;
+
+  &:focus {
+    border-color: gray;
+  }
+}
+
+
+
+
+/* 
+.stepper__input {
+    text-decoration: none;
+    border: 1px solid gray;
+    color: black;
+    outline: none ;
+    padding: 5px 10px;
+    font-size: 14px;
+    max-width: 210px;
+    height: 15px;
+    border-radius: 8px;
+    width: 100%;
+    text-decoration: none;
+    transition: 0.3s;
+    &:focus {
+      background-color: rgb(231, 229, 229);
+      
+    }  
+} */
+
+
+
+.stepper__input {
+  border: 1px solid gray;
+  color: black;
+  outline: none;
+  padding: 5px 10px;
+  font-size: 14px;
+  max-width: 210px;
+  height: 30px; /* Увеличено для лучшего отображения */
+  border-radius: 8px;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.stepper__input option {
+  color: gray; /* Цвет текста для невыбранного состояния */
+}
