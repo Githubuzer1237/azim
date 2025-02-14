@@ -1,0 +1,27 @@
+.circular-text {
+    margin: 0 auto;
+    border-radius: 50%;
+    /* max-width: 400px;
+    height: 400px; */
+    width: 500px;
+    height: 500px;
+    font-weight: bold;
+    color: black;
+    font-weight: 900;
+    text-align: center;
+    cursor: pointer;
+    @media (max-width: 1500px) {
+        display: none;
+    }
+  }
+  
+  .circular-text span {
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 24px;
+    transition: all 0.5s cubic-bezier(0, 0, 0, 1);
+  }
